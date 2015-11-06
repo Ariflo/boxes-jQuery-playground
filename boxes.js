@@ -1,9 +1,5 @@
 $( function (){
 
-	console.log( "DOM Ready for manipulation!" );
-
-
-
 	// Find the secretBox on the page. Set the background color to white. Add an h1 tag that says, "secret box!"
 	$('#secretBox').css('background-color', 'white');
 	$('<h1> secret box! </h1>').appendTo('#secretBox');
