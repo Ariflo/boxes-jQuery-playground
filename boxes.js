@@ -19,10 +19,7 @@ $('#row2 div:lt(2)').removeClass();
 
 
 // Get all divs inside the container that are not row divs and are not the secret box div. Set the width of the divs to 2 pixels.
-
-
-
-
+$('.row').children('div:not(#secretBox)').css('width', '2px');	
 
 });
 
