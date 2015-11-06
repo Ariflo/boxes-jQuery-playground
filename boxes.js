@@ -1,1 +1,5 @@
-console.log("hello world");
+$( function (){
+    console.log( "DOM Ready for manipulation!" );
+});
+
+
